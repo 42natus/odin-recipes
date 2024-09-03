@@ -21,7 +21,6 @@ ol {
 
 a {
     text-decoration: none;
-    /* color: rgb(63, 156, 209); */
     color: hsl(210, 100%, 56%);
 }
 
@@ -56,32 +55,33 @@ h2 {
 }
 
 .menu-card {
-    /* border-style: dotted; */
     padding: 10px;
     margin: auto;
     background-color: rgb(243 244 246);
-    border-radius: 25px;
-    width: 600px;
+    border-radius: 30px;
+    max-width: 600px;
 }
 
 img {
     height: auto;
     margin: auto auto 50px auto;
-    border: 2px solid rgb(63, 156, 209);
-    padding: 2px;
-    border-radius: 27px;
+    background-color: rgb(243 244 246);
+    border: 2px solid rgb(243 244 246);
+    padding: 7px;
+    border-radius: 25px;
     display: block;
-    width: 300;
+    max-width: 300;
+    
 }
 
 .french-toast,
 .baby-spinach-omelet,
 .basic-crepes {
     display: inline-block;
+    /* position: relative; */
     border-radius: 30px;
     padding: 20px;
-    margin: 20px 10px;
-    /* margin: 20px 10px 20px 10px; */
+    margin: 20px 20px 20px auto;
     background-color: rgb(222, 238, 241);
     width: 30%;
 }
@@ -90,8 +90,27 @@ img {
 .description,
 .ingredients,
 .steps {
-    width: 650px;
+    max-width: 650px;
     padding: 20px;
     margin: -30px auto 30px;
     line-height: 1.7;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: auto;
+    background-color: rgb(243 244 246);
+    border-radius: 30px;
+    max-width: 600px;
+}
+
+.description {
+    padding: 5px 20px;
+}
+
+
+.ingredients,
+.steps {
+    padding: 20px 40px;
 }
